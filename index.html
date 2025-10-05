@@ -87,51 +87,147 @@
         <!--Menu section-->
         <section class="menu-section">
             <h2 class="section-title">Menu</h2>
+            <div class="menu-filters">
+              <button data-filter="all" class="active">All</button>
+              <button data-filter="alcoholic">Alcoholic</button>
+              <button data-filter="non-alcoholic">Non-Alcoholic</button>
+              <button data-filter="hot-coffe">Hot Coffee</button>
+              <button data-filter="cold-coffe">Cold Coffee</button>
+            </div>
+
+        <input type="text" id="menu-search" placeholder="Search for drinks...">
+
             <div class="section-content">
                 <ul class="menu-list">
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Capucino">
                         <img src="images/menucapucino.jpg" alt="Capucino" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Capucino</h3>
                           <p class="text">Espresso, steamed milk, and a layer of frothy milk foam.</p>
                         </div>
                     </li>
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Americano">
                         <img src="images/menuamericano.jpg" alt="Americano" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Americano</h3>
                           <p class="text">Espresso diluted with hot water, creating a smooth and rich coffee.</p>
                         </div>
                     </li>
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Latte">
                         <img src="images/menulatte.jpg" alt="Latte" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Coffee Latte</h3>
                           <p class="text">Espresso, steamed milk, and a layer of frothy milk foam.</p>
                         </div>
                     </li>
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Vienna">
                         <img src="images/menuvienna.jpg" alt="Vienna" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Coffee Vienna</h3>
                           <p class="text">Espresso topped with whipped cream, offering a rich and indulgent flavor.</p>
                         </div>
                     </li>
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Raf">
                         <img src="images/menuraf.jpg" alt="Raf" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Raf Coffee</h3>
                           <p class="text">Espresso mixed with cream and vanilla sugar, creating a creamy and sweet coffee experience.</p>
                         </div>
                     </li>
-                    <li class="menu-item">
+                    <li class="menu-item" data-category="hot-coffe" data-name="Cacao Marshmelov">
                         <img src="images/menumarshmelow.jpg" alt="Marshmelov" class="menu-image" />
                         <div class="menu-details">
                           <h3 class="name">Cacao Marshmelov</h3>
                           <p class="text">Hot chocolate topped with marshmallows, offering a sweet and comforting treat.</p>
                         </div>
                     </li>
+                    <li class="menu-item" data-category="hot-coffe" data-name="Matcha Latte">
+                        <img src="images/matchalattemenu.jpg" alt="Matcha Latte" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Matcha Latte</h3>
+                          <p class="text">A blend of matcha green tea powder, steamed milk, and a touch of sweetness.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="hot-coffe" data-name="Hot Chocolate">
+                        <img src="images/hotchocolatemenu.jpg" alt="Hot Chocolate" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Hot Chocolate</h3>
+                          <p class="text">Rich and creamy hot chocolate made with melted chocolate and milk.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="hot-coffe" data-name="Coffee Glisse">
+                        <img src="images/coffeglissemenu.jpg" alt="Coffe Glisse" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Coffee Glisse</h3>
+                          <p class="text">Espresso poured over a scoop of vanilla ice cream, creating a delightful coffee dessert.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="hot-coffe" data-name="Chocolate Mocha">
+                        <img src="images/chocalatemocha.jpg" alt="Chocolate Mocha" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Chocolate Mocha</h3>
+                          <p class="text">A combination of espresso, steamed milk, and chocolate syrup, topped with whipped cream.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="hot-coffe" data-name="Flat White">
+                        <img src="images/flatwhitemenu.jpg" alt="Flat White" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Flat White</h3>
+                          <p class="text">Espresso with steamed milk, creating a smooth and velvety coffee experience.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="cold-coffe" data-name="Iced Latte">
+                        <img src="images/icedlattemenu.jpg" alt="Iced Latte" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Iced Latte</h3>
+                          <p class="text">Espresso mixed with cold milk and ice, perfect for a refreshing coffee experience.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="cold-coffe" data-name="Iced Americano">
+                        <img src="images/iceamericanumenu.jpg" alt="Iced Americano" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Iced Americano</h3>
+                          <p class="text">Espresso diluted with cold water and ice, creating a smooth and refreshing coffee.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="cold-coffe" data-name="Iced Green Matcha">
+                        <img src="images/icegreenmatchamenu.jpg" alt="Iced Green Matcha" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Iced Green Matcha</h3>
+                          <p class="text">A refreshing blend of matcha green tea powder, cold milk, and ice.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="cold-coffe" data-name="Bumbleebe">
+                        <img src="images/bumblebeemenu.jpg" alt="Bumbleebe" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Bumbleebe</h3>
+                          <p class="text">Espresso, cold milk, honey, and ice, creating a sweet and refreshing coffee drink.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="non-alcoholic" data-name="Apple Kiwi">
+                        <img src="images/applekivimenu.jpg" alt="Apple Kiwi" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Apple Kiwi</h3>
+                          <p class="text">A refreshing blend of apple juice, kiwi puree, and ice.</p>
+                        </div> 
+                    </li>
+                    <li class="menu-item" data-category="non-alcoholic" data-name="Blue Marine">
+                        <img src="images/bluemarine.jpg" alt="Blue Marine" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Blue Marine</h3>
+                          <p class="text">A tropical mix of blue curaçao syrup, pineapple juice, and soda water.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item" data-category="non-alcoholic" data-name="Bubble Gum">
+                        <img src="images/bubblegummenu.jpg" alt="Bubble Gum" class="menu-image" />
+                        <div class="menu-details">
+                          <h3 class="name">Bubble Gum</h3>
+                          <p class="text">A fun and fruity blend of bubble gum syrup, lemonade, and ice.</p>
+                        </div>
+
                 </ul>
+                <button id="menu-show-more" class="show-more-button">Davamını göstər</button>
+                <button id="menu-hide" class="show-more-button" style="display:none;">Gizlət</button>  
             </div>
         </section>
         <!--End of Menu section-->
@@ -177,6 +273,9 @@
                     <img src="images/pinocoloda.jpg" alt="Gallery" class="gallery-image">
                 </li>
               </ul>
+              <button id="show-more-button" class="show-more-button">Davamını göstər</button>
+              <button id="hide-button" class="show-more-button" style="display: none;">Gizlət</button>
+
             </div>
         </section>
         <!--End of Gallery section-->
@@ -207,7 +306,19 @@
             </div>
         </section>
     </main>
-    <script src="script.js">
-    </script>
+<!-- Modal -->
+    <div id="menu-modal" class="menu-modal" style="display:none;">
+       <div class="menu-modal-content">
+         <span class="menu-modal-close">&times;</span>
+         <img id="modal-image" src="" alt="Drink Image" />
+         <h2 id="modal-name">Drink Name</h2>
+          <p id="modal-category">Category</p>
+          <p id="modal-description">Description</p>
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
 </body>
 </html> 
